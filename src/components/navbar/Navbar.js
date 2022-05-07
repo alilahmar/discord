@@ -25,11 +25,11 @@ const Navbar = () => {
         <img src={img} alt="" className="w-32 h-12 object-contain " />
       </a>
       <div className="hidden lg:flex space-x-6 text-white">
-        <a className="link">Download</a>
-        <a className="link">Why Discord?</a>
-        <a className="link">Nitro</a>
-        <a className="link">Safety</a>
-        <a className="link">Support</a>
+        <a className="no-underline hover:text-gray-300">Download</a>
+        <a className="no-underline hover:text-gray-300">Why Discord?</a>
+        <a className="no-underline hover:text-gray-300">Nitro</a>
+        <a className="no-underline hover:text-gray-300">Safety</a>
+        <a className="no-underline hover:text-gray-300">Support</a>
       </div>
       <div className="flex space-x-4">
         <button

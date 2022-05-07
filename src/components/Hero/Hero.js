@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="bg-discord_blue pb-8 md:pb-0">
       {/* md:h-[83vh] jit example */}
-      <div className="p-7 py-9 h-screen md:h-83vh md:flex relative">
+      <div className="p-7 py-9 h-screen md:h-83vh md:flex relative overflow-hidden">
         <div className="flex flex-col gap-7 md:max-w-md lg:max-w-none lg:justify-center">
           <h1 className="text-5xl text-white font-bold">Your place to talk</h1>
           <h2 className="text-white text-lg font-light tracking-wide lg:max-w-3xl w-full">
