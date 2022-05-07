@@ -35,8 +35,7 @@ const Chat = () => {
         .orderBy("timestamp", "asc")
   );
 
-  const scrollToBottom = (e) => {
-    e.preventDefault();
+  const scrollToBottom = () => {
     chatRef.current.scrollIntoView({
       behavior: "smooth",
       block: "start",
